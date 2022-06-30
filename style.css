@@ -1,0 +1,154 @@
+:root{
+    --color1:#2534BD;
+    --color2: #EF634D;
+    --l:#ffffff;
+    --padding: 208px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Roboto" , sans-serif;
+    font-size: 81px;
+    color: var(--color2);
+}
+
+h2 {
+    font-family: "Roboto" , sans-serif;
+}
+
+h3 {
+    font-family: "Roboto" , sans-serif;
+}
+
+h5 {
+    font-family: "Roboto" , sans-serif;
+    font-size: 33px;
+    padding-left:10% ;
+    padding-top: 15px;
+    padding-bottom: 70px;
+    color: var(--l);
+    cursor: pointer;
+}
+
+p{
+    color: var(--l);
+    font-family: 'Open Sans', sans-serif;
+    font-size:20px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2534BD;
+    width: 100%;
+}
+
+.first .nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first .nav .bars{
+    font-size: 33px;
+    padding-right:10% ;
+    padding-top: 19px;
+    padding-bottom: 70px;
+    color: var(--l);
+}
+
+.first .nav .bars i:hover{
+    color: #d2cfcf;
+}
+
+.container-first{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 45px;
+}
+
+.first-img{
+    width: 45%;
+    display: flex;
+    position: relative;
+    left: 10%;
+}
+
+.first-img img{
+    width: 100%;
+    position: relative;
+    height: 680px;
+}
+
+.first-img .color{
+    background-color: var(--color2);
+    position: absolute;
+    width: 50px;
+    height: 680px;
+}
+
+.first-img .logo{
+    position: absolute;
+    width: 20%;
+    height: 5%;
+    left: 160%;
+    top: 10%;
+}
+
+.first-img .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.first-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-info p{
+    padding-bottom: 30px;
+}
+
+.first-info h1{
+    position: relative;
+    bottom: 50px;
+}
+
+.info-img{
+    width: 28%;
+    padding-top: 20px;
+}
+
+.info-img > img{
+    width: 100%;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+.second p {
+    font-size: 20px;
+    color: var(--color1);
+}
+
+.second h2 {
+    font-size: 54px;
+    color: var(--color1);
+}
+
+.second{
+    background-color: var(--l);
+    width: 100%;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: row;
+}
